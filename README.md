@@ -14,18 +14,18 @@ Country Info is a full-stack application that delivers a Next.js responsive inte
 
 - Docker.
 
-1. Clonar o repositório.
+1. Clone the repository.
 
 
 ```git clone https://github.com/enzojga/country-info.git```
 
 
-2. On the paste run:
+2. In the project directory, run:
 
 
 ```docker-compose up --build```
 
-3. Acessar o http://localhost:4001 no navegador.
+3. Access http://localhost:4001 in your browser.
 
 - You can also run them individually by following the steps in each folder.
 
