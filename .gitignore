@@ -129,11 +129,6 @@ yarn-error.log
 /packages/**/LICENSE
 *.tsbuildinfo
 
-# example
-/quick-start
-/example_dist
-/example
-
 # tests
 /test
 /benchmarks/memory
