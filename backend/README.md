@@ -31,3 +31,5 @@ Country Info back-end folder that delivers a NestJS API.
 ```npm start```
 
 5. Access http://localhost:PORT in your browser.
+
+- You can run tests with npm run test.
