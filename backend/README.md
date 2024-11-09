@@ -1,6 +1,6 @@
-# Country Info
+# Country Info back-end
 
-Country Info is a full-stack application that delivers a Next.js responsive interface with a NestJS API.
+Country Info back-end folder that delivers a NestJS API.
  
 
 ## Functionalities

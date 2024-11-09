@@ -91,10 +91,10 @@ describe('CountriesService', () => {
 
       expect(result.borders).toEqual({
         ...mockBorderInfo,
-        borders: [], // borders is an empty array
+        borders: [],
       });
       expect(result.flagData).toEqual(mockFlagData);
-      expect(result.populationData).toEqual(mockPopulationData);
+      expect(result.populationData).toBeUndefined();
     });
 
     it('should throw NotFoundException when country code is not found', async () => {

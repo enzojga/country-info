@@ -1,4 +1,4 @@
-# Country Info frontnd
+# Country Info front-end
 
 Country Info front-end folder that delivers a Next.js responsive interface
  
