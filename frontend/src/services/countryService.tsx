@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3002/countries';
+const API_URL = process.env.NEXT_PUBLIC_API_URL 
+  ? `${process.env.NEXT_PUBLIC_API_URL}/countries` 
+  : 'http://localhost:3002/countries';
 
 export type Contries = Country[]
 
@@ -44,7 +46,7 @@ interface PopulationCount {
 
 const api = axios.create({
   baseURL: API_URL,
-  timeout: 10000, // Tempo limite de 10 segundos
+  timeout: 10000,
 });
 
 export async function getCountries(): Promise<Contries>  {

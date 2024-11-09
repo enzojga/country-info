@@ -1,8 +1,8 @@
-// File: /home/enacom/projects/country-info/fe/src/app/layout.tsx
-import * as entry from '../../../src/app/layout.jsx'
+// File: /home/enacom/projects/country-info/frontend/src/app/layout.tsx
+import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../src/app/layout.jsx')
+type TEntry = typeof import('../../../src/app/layout.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }
